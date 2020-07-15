@@ -1,0 +1,19 @@
+{
+  "name": "iota-node-red",
+  "version": "1.0.0",
+  "description": "",
+  "main": "iota-red.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "iota-red": "iota-red.js"
+    }
+  },
+  "dependencies": {
+    "@iota/iota-rs-wasm": "^1.0.0-alpha.4"
+  }
+}
